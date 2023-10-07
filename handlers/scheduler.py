@@ -17,7 +17,7 @@ async def remind_me(message: types.Message):
         "date",
         run_date=datetime(2023, 10, 9, 23, 00)
     )
-    await message.answer("")
+    await message.answer("Good night")
 
 async def send_reminder(user_id: int):
     await bot.send_message(user_id, "Hi")
